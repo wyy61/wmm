@@ -1,0 +1,8 @@
+variables:
+  CMD:"python3 heart.py"
+  
+include:
+  -project:platform/ci-templates
+  ref:master
+  file:"/python/auto-test.yml"
+  
